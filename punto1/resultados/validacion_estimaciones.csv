@@ -1,0 +1,10 @@
+algoritmo,lenguaje,variante,n,tiempo_real_ms
+dualpivot,java,ascendente,100000,3768.0570
+dualpivot,java,descendente,100000,2406.4538
+dualpivot,java,ascendente,1000000,406699.8843
+dualpivot,java,descendente,1000000,212112.3536
+dualpivot,python,ascendente,10000,2019.4941
+dualpivot,python,descendente,10000,2062.9043
+dualpivot,python,ascendente,100000,194537.1552
+dualpivot,python,descendente,100000,208156.8112
+FIN_VALIDACION

@@ -1,0 +1,13 @@
+# Taller de Ordenamiento y Búsqueda
+
+Análisis de Algoritmos, Universidad del Quindío.
+
+Integrantes: Samuel Zuluaga, Samuel Ortiz, Juan Mejía.
+
+| Carpeta | Contenido |
+| --- | --- |
+| [`punto1/`](punto1/) | Punto 1: algoritmos de ordenamiento (Insertion, Dual-Pivot QuickSort, Merge, Heap, Radix y Bucket Sort) en Java y Python, datos de prueba, resultados y gráficas |
+| `punto2/` | Punto 2: algoritmos de búsqueda |
+| `punto3/` | Punto 3: análisis comparativo |
+
+Cada carpeta tiene su propio README con las instrucciones para ejecutar el código y la descripción de los resultados.
