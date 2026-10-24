@@ -1,0 +1,43 @@
+algoritmo,lenguaje,variante,n,t1_ns,t2_ns,t3_ns,t4_ns,t5_ns,promedio_ns,desv_ns,tipo,estado,nota
+linear,python,claves_mixtas,1000,21228.20,21490.00,20520.90,20390.50,21207.70,20967.46,482.45,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+linear,python,claves_mixtas,10000,198399.50,192518.00,191642.10,198550.30,192131.90,194648.36,3507.31,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+linear,python,claves_mixtas,100000,1983396.20,2561850.20,2514935.80,2595277.40,2697432.20,2470578.36,280471.52,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+linear,python,claves_mixtas,1000000,27828192.40,25977265.00,27342619.40,25405514.10,25646790.20,26440076.22,1078803.32,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+linear,python,pos_inicio,1000000,243.70,256.50,404.40,152.40,172.20,245.84,99.26,medido,ok,1000 busquedas clave en arr[0]
+linear,python,pos_centro,1000000,17735538.40,17001645.00,18199767.60,17785978.80,17889574.60,17722500.88,441454.92,medido,ok,1000 busquedas clave en arr[n/2]
+linear,python,pos_final,1000000,33542243.80,33304108.90,33245330.60,35428511.70,35054846.50,34115008.30,1042897.81,medido,ok,1000 busquedas clave en arr[n-1]
+binary,python,claves_mixtas,1000,967.60,1412.00,1376.30,923.80,932.00,1122.34,248.99,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+binary,python,claves_mixtas,10000,2136.40,1471.20,1292.80,2048.60,1696.80,1729.16,362.59,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+binary,python,claves_mixtas,100000,2373.50,1818.80,1645.10,2195.50,2107.20,2028.02,293.29,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+binary,python,claves_mixtas,1000000,4789.50,6049.90,5709.30,5805.70,5823.90,5635.66,489.22,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+binary,python,pos_inicio,1000000,1819.80,2006.00,1604.20,1633.70,1749.40,1762.62,161.55,medido,ok,1000 busquedas clave en arr[0]
+binary,python,pos_centro,1000000,2110.80,1678.70,3162.20,3228.90,1899.90,2416.10,728.14,medido,ok,1000 busquedas clave en arr[n/2]
+binary,python,pos_final,1000000,1759.80,1756.00,1832.40,1788.90,1797.90,1787.00,31.16,medido,ok,1000 busquedas clave en arr[n-1]
+ternary,python,claves_mixtas,1000,1014.70,1068.30,935.80,948.00,935.90,980.54,59.00,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+ternary,python,claves_mixtas,10000,2209.80,1341.60,1319.60,1408.60,1612.70,1578.46,371.39,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+ternary,python,claves_mixtas,100000,3294.00,2120.20,2572.10,1918.90,1887.90,2358.62,589.98,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+ternary,python,claves_mixtas,1000000,4947.90,3423.50,4206.80,4615.60,3950.50,4228.86,590.16,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+ternary,python,pos_inicio,1000000,2387.70,2062.60,3583.80,3433.10,4165.80,3126.60,874.78,medido,ok,1000 busquedas clave en arr[0]
+ternary,python,pos_centro,1000000,2627.50,2862.80,3726.60,2233.80,2052.90,2700.72,656.08,medido,ok,1000 busquedas clave en arr[n/2]
+ternary,python,pos_final,1000000,2441.10,1971.70,2722.30,2972.70,2644.70,2550.50,375.37,medido,ok,1000 busquedas clave en arr[n-1]
+jump,python,claves_mixtas,1000,8922.00,8581.70,7876.60,10150.20,6060.30,8318.16,1506.93,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+jump,python,claves_mixtas,10000,26556.10,23899.40,18185.50,20042.00,21936.80,22123.96,3266.39,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+jump,python,claves_mixtas,100000,63148.20,68798.20,77309.20,67597.70,60999.10,67570.48,6306.55,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+jump,python,claves_mixtas,1000000,277293.80,245599.30,216160.20,207700.80,215795.60,232509.94,28892.48,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+jump,python,pos_inicio,1000000,356.50,339.70,340.40,340.40,340.20,343.44,7.31,medido,ok,1000 busquedas clave en arr[0]
+jump,python,pos_centro,1000000,120236.50,126668.60,120969.00,131981.40,125201.80,125011.46,4756.68,medido,ok,1000 busquedas clave en arr[n/2]
+jump,python,pos_final,1000000,400796.80,370778.40,390033.70,399927.60,487935.60,409894.42,45268.76,medido,ok,1000 busquedas clave en arr[n-1]
+interpolation,python,claves_mixtas,1000,942.60,922.20,929.30,909.20,959.70,932.60,19.37,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+interpolation,python,claves_mixtas,10000,1146.50,1115.90,1045.80,950.90,1450.40,1141.90,188.14,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+interpolation,python,claves_mixtas,100000,1365.00,1243.30,1717.30,1486.30,1231.50,1408.68,201.20,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+interpolation,python,claves_mixtas,1000000,1790.40,3501.90,3119.40,1574.30,1209.40,2239.08,1009.10,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+interpolation,python,pos_inicio,1000000,466.80,527.60,1187.10,866.20,481.30,705.80,314.90,medido,ok,1000 busquedas clave en arr[0]
+interpolation,python,pos_centro,1000000,2304.90,1464.50,1765.50,1792.50,1661.60,1797.80,311.39,medido,ok,1000 busquedas clave en arr[n/2]
+interpolation,python,pos_final,1000000,644.00,565.90,726.50,559.60,618.80,622.96,67.92,medido,ok,1000 busquedas clave en arr[n-1]
+exponential,python,claves_mixtas,1000,1419.90,1205.60,1224.10,1211.40,1463.90,1304.98,126.13,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+exponential,python,claves_mixtas,10000,3295.90,3188.30,2779.60,1779.50,1739.40,2556.54,752.83,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+exponential,python,claves_mixtas,100000,4643.60,2625.80,2212.10,2508.90,3265.70,3051.22,969.65,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+exponential,python,claves_mixtas,1000000,6065.80,4256.70,4877.10,3862.80,5968.40,5006.16,991.76,medido,ok,"1000 claves (500 presentes, 500 ausentes)"
+exponential,python,pos_inicio,1000000,80.70,77.30,77.10,83.90,76.50,79.10,3.15,medido,ok,1000 busquedas clave en arr[0]
+exponential,python,pos_centro,1000000,2277.90,2279.20,2490.80,2099.60,2335.90,2296.68,140.29,medido,ok,1000 busquedas clave en arr[n/2]
+exponential,python,pos_final,1000000,3474.50,3491.80,4272.40,3347.80,2752.00,3467.70,541.93,medido,ok,1000 busquedas clave en arr[n-1]
