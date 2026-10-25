@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Gráficas del Punto 3: Análisis Comparativo.
-Genera dos figuras visuales en graficas/:
-  1_comparativos_vs_no_comparativos.png (barras comparando algoritmos para n = 1.000.000)
-  2_ordenar_vs_no_ordenar_breakeven.png  (curvas de costo total T(k) vs número de búsquedas k)
-"""
-
 import os
 import numpy as np
 import matplotlib
@@ -18,7 +10,6 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 SALIDA = os.path.join(BASE, "graficas")
 os.makedirs(SALIDA, exist_ok=True)
 
-# Paleta coherente con punto1 y punto2
 COLOR_JAVA = "#2a78d6"
 COLOR_PYTHON = "#eb6834"
 COLOR_COMP = "#3498db"
@@ -41,10 +32,7 @@ plt.rcParams.update({
 
 
 def grafica_comparativos_vs_no_comparativos():
-    """
-    Gráfica 1: Comparación de tiempos para n = 1.000.000 (aleatorio)
-    Diferenciando visualmente entre algoritmos comparativos y no comparativos.
-    """
+    
     algs = [
         "Radix Sort\n(No Comp)",
         "Bucket Sort\n(No Comp)",
@@ -101,10 +89,7 @@ def grafica_comparativos_vs_no_comparativos():
 
 
 def grafica_breakeven():
-    """
-    Gráfica 2: Punto de Equilibrio (Break-Even) T(k) vs número de búsquedas k
-    Dos subplots: Java a la izquierda y Python a la derecha.
-    """
+   
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5.5), dpi=150)
     
     # ------------------ SUBPLOT 1: JAVA ------------------

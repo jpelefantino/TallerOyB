@@ -1,25 +1,5 @@
 # Taller de Ordenamiento y Búsqueda: Punto 3 (Análisis Comparativo)
 
-Este módulo desarrolla el **Punto 3: Análisis Comparativo**, integrando y sintetizando los resultados experimentales obtenidos en el **Punto 1 (Algoritmos de Ordenamiento)** y el **Punto 2 (Algoritmos de Búsqueda)** tanto en **Java** (compilado) como en **Python** (interpretado).
-
----
-
-## Estructura de la Carpeta
-
-```
-punto3/
-├── README.md                      # Documentación completa, desarrollos teóricos y cálculos
-├── analisis.py                    # Script de cálculo algebraico y generación de tablas comparativas
-├── graficas.py                    # Generador de figuras visuales (PNG)
-├── resultados/
-│   └── tablas_analisis.md         # Tablas consolidadas de tiempos y puntos de equilibrio
-└── graficas/
-    ├── 1_comparativos_vs_no_comparativos.png # Comparativa de familias para n = 1.000.000
-    └── 2_ordenar_vs_no_ordenar_breakeven.png  # Curvas de costo T(k) vs k y punto de corte k*
-```
-
----
-
 ## 1. Comparativos frente a No Comparativos
 
 ### 1.1 Límite inferior teórico para algoritmos basados en comparaciones

@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""
-Punto 3: Análisis Comparativo
-Integra y analiza los resultados experimentales obtenidos en el Punto 1 (Ordenamiento)
-y el Punto 2 (Búsqueda).
-
-Cálculos incluidos:
-1. Comparación cuantitativa entre algoritmos comparativos y no comparativos para n = 1.000.000.
-2. Deducción y cálculo numérico del punto de equilibrio (break-even point) k* para determinar
-   a partir de cuántas búsquedas resulta más conveniente ordenar un arreglo desordenado
-   de n = 1.000.000 de elementos con el mejor algoritmo y aplicar búsqueda binaria,
-   frente a realizar k búsquedas lineales sobre el arreglo desordenado.
-"""
-
 import os
 import math
 import csv
@@ -39,13 +25,6 @@ def cargar_datos_punto1():
     return datos_java, datos_python
 
 def cargar_datos_punto2():
-    # Tiempos medidos para n = 1.000.000 con claves mixtas (Punto 2)
-    # Tiempos promedio por búsqueda individual
-    # Fuente: punto2/resultados/resultados_java.csv y resultados_python.csv
-    # En Java:
-    # Búsqueda Lineal: 149.00 µs = 0.14900 ms
-    # Búsqueda Binaria: 274.3 ns = 0.0002743 ms
-    # Búsqueda Interpolación: 33.8 ns = 0.0000338 ms
     busqueda_java = {
         "Búsqueda Lineal": {"promedio_ms": 0.14900, "desv_ms": 0.00874, "unidad_orig": "149.00 ± 8.74 µs"},
         "Búsqueda Binaria": {"promedio_ms": 0.0002743, "desv_ms": 0.0000715, "unidad_orig": "274.3 ± 71.5 ns"},
@@ -55,10 +34,6 @@ def cargar_datos_punto2():
         "Búsqueda Exponencial": {"promedio_ms": 0.0002194, "desv_ms": 0.0000540, "unidad_orig": "219.4 ± 54.0 ns"}
     }
     
-    # En Python:
-    # Búsqueda Lineal: 26.440 ms
-    # Búsqueda Binaria: 5.64 µs = 0.00564 ms
-    # Búsqueda Interpolación: 2.24 µs = 0.00224 ms
     busqueda_python = {
         "Búsqueda Lineal": {"promedio_ms": 26.440, "desv_ms": 1.079, "unidad_orig": "26.440 ± 1.079 ms"},
         "Búsqueda Binaria": {"promedio_ms": 0.00564, "desv_ms": 0.00049, "unidad_orig": "5.64 ± 0.49 µs"},
