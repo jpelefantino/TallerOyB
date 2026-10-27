@@ -25,6 +25,21 @@ resultados/               CSV de Java y Python, validación de estimaciones y lo
 graficas/                 Las 6 gráficas del Punto 1 (PNG)
 ```
 
+## Demo rápida (para la sustentación)
+
+Tarda unos segundos en cada lenguaje. Ordena con los 6 algoritmos, verifica el resultado,
+muestra el efecto del orden de entrada y reproduce el fallo del Dual-Pivot QuickSort.
+Se ejecuta desde la carpeta `punto1`:
+
+```bash
+# Java
+javac -encoding UTF-8 -d java java/Ordenamientos.java java/Demo.java
+java -cp java Demo
+
+# Python
+python python/demo.py
+```
+
 ## Cómo reproducirlo
 
 Requiere Java 17 o superior, Python 3.10 o superior y matplotlib (`pip install matplotlib`).
